@@ -1,0 +1,241 @@
+body{
+    margin:0PX;
+    padding: 10px;
+    
+}
+ul {
+    list-style-type: none;
+    padding-right: 50px;
+    float: right;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    
+  }
+  
+  li {
+  
+    float: right;
+      display: inline;
+      word-spacing:0.5em;
+}
+
+.logo{
+    margin-bottom: 10px;
+    margin: 10px;
+    }
+
+.logo1{
+    
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+
+h2 {
+    text-align: right;
+    margin:auto;
+}
+
+.container {
+
+    background-color:white;
+    width: 900px;
+    height: 300px;
+    margin: 0;
+    flex:25%;
+
+  }
+
+.image {
+    height: 280px;
+    width: 420px;
+    margin: 20px;
+    float:left;
+    margin-right: 60px;
+}
+
+ .texte {
+    margin: 30px;
+    flex: 25%;
+    flex-wrap: wrap-reverse;
+    display: flex;
+}
+
+.user{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    float: left;
+    word-spacing:1em;
+    
+}
+
+.user1{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    float: left;
+    
+}
+.user2{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    float: left;
+    word-spacing:1em;
+}
+
+.user3{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    float: left;
+    
+}
+
+.image1 {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    float: boath;
+}
+.image2 {
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    float: boath;
+}
+
+.image3{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    float: boath;
+}
+
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 0;
+  text-align: center;
+  font-size: 35px;
+  
+}
+
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 30px;
+  display: flex;
+    flex-wrap: wrap;
+}
+
+
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 10000px; 
+    height: 800px;
+    flex: 25%;
+    padding: 20px;
+  }
+
+  .bas {
+    text-align: right;
+    margin:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 70px;
+    height: 50px;
+    width: 60px;
+    display: inline;
+    
+  
+  }
+
+  .texte {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    
+    
+  }
+
+  .column {
+    height: 400px;
+  }
+
+  .article2 {
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+  }
+
+  .article3 {
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+  }
+
+  .article1 {
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    
+  }
+
+  .texte1 {
+    text-align: left;
+    margin-left: 100px;
+    clear: right;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  a:link {text-decoration:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+
+span {
+    background-color: coral;
+}
+
+
+.menu{
+    height: 100px;
+    width: 500px;
+    display: inline;
+ 
+    
+}
+
+
+@media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .menu {
+      flex: 50%;
+    }
+  }
+
+  @media screen and (max-width: 1500px) {
+    .container {
+      flex-direction: 50%;
+    }
+  }
+  
